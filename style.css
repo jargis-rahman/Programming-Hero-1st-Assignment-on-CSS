@@ -1,0 +1,87 @@
+* {
+    margin: auto;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+/* default-style */
+
+.default-style {
+    max-width: 1280px;
+
+}
+
+.default-btn {
+    padding: 8px 16px;
+    background: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.default-btn:hover {
+
+    background: #0D1B2A;
+
+}
+
+
+/* nav-bar-start*/
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.nav-menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.nav-menu ul li a:hover {
+    text-decoration: none;
+    color: #1D4ED8;
+}
+
+/* nav-bar-end*/
+
+
+/* hero-section-start */
+.hero-section {
+    text-align: center;
+    padding: 60px 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.592)), url(./images/banner.jpg);
+    background-size: cover;
+    color: white;
+
+}
+
+.hero-section div {
+    padding: 100px 20px;
+}
+
+.hero-section div h1 {
+    font-size: 3rem;
+}
+
+.hero-section div p {
+    margin: 20px 10px 100px;
+    font-size: .9rem;
+    color: #E6E7E7;
+}
+
+
+/* hero-section-end */
