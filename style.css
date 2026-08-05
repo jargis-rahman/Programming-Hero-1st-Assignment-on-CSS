@@ -83,5 +83,89 @@ header nav {
     color: #E6E7E7;
 }
 
-
 /* hero-section-end */
+
+
+/* speaker-section-start */
+
+#speakers-section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    justify-items: center;
+}
+
+#speakers-section h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.speaker-card {
+    border: 1px solid gainsboro;
+    border-radius: 12px;
+
+}
+
+.speaker-card img {
+    border-radius: 12px 12px 0px 0px;
+
+}
+
+.speaker-card-text {
+    padding: 20px;
+}
+
+.speaker-card-text h4 {
+    color: #1D4ED8;
+    margin-bottom: 6px;
+    font-size: .9rem;
+}
+
+.speaker-card-text p {
+    color: #575757;
+    margin-top: 3px;
+}
+
+/* speaker-section-end */
+
+
+/* Spot-section-start */
+
+#spot-section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    justify-items: center;
+}
+
+#spot-section h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#spot-section p {
+    color: #575757;
+}
+
+.spot-cards-section{
+    margin: 20px;
+}
+
+.spot-card{
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 12px; 
+}
+
+
+
+/* Spot-section-end */

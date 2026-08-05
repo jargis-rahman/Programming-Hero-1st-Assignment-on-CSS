@@ -1,0 +1,13 @@
+
+echo "# Programming-Hero-1st-Assignment-on-CSS-Github-Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jargis-rahman/Programming-Hero-1st-Assignment-on-CSS.git
+git push -u origin main
+
+----------------------------------------------------------------------------------------------------------
+git remote add origin https://github.com/jargis-rahman/Programming-Hero-1st-Assignment-on-CSS.git
+git branch -M main
+git push -u origin main
