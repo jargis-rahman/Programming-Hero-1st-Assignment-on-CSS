@@ -12,7 +12,7 @@
 }
 
 .default-btn {
-    padding: 8px 16px;
+    padding: 10px 20px;
     background: #1D4ED8;
     color: white;
     border: none;
@@ -20,6 +20,18 @@
 }
 
 .default-btn:hover {
+
+    background: #0D1B2A;
+
+}
+.outline-btn {
+    padding: 10px 16px;
+    color:#1D4ED8;
+    border: 1px solid #1D4ED8;
+    border-radius: 5px;
+}
+
+.outline-btn:hover {
 
     background: #0D1B2A;
 
@@ -157,6 +169,7 @@ header nav {
 
 .spot-cards-section{
     margin: 20px;
+    display: flex;
 }
 
 .spot-card{
@@ -164,6 +177,36 @@ header nav {
     padding: 40px;
     border: 1px solid gainsboro;
     border-radius: 12px; 
+}
+.spot-card h4 {
+    color: #1D4ED8;
+
+}
+
+.spot-card ul{
+    margin: 20px 8px;
+    padding: 10px;
+    border-top: 2px solid gainsboro;
+
+}
+.spot-card ul li{
+    margin-top: 8px;
+
+}
+.spot-card button{
+    width: 100%;
+
+}
+
+#pro-card{
+    background: #0D1B2A;
+    color: white;
+}
+#pro-card button:hover{
+    border: 1px solid #1D4ED8;
+}
+#pro-card p{
+    color: gainsboro;
 }
 
 
