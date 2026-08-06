@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    margin: 0px auto;
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
@@ -46,7 +46,7 @@
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -81,6 +81,8 @@ header nav {
     background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.592)), url(./images/banner.jpg);
     background-size: cover;
     color: white;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -223,9 +225,9 @@ header nav {
 /* sponsors-section-start */
 
 .sponsors {
-    padding: 60px 0px;
+    padding: 80px;
     text-align: center;
-    background: rgb(242, 242, 242);
+    background: #EDE9FE;
 }
 
 .sponsors h1 {
@@ -242,9 +244,9 @@ header nav {
     margin-top: 20px;
     padding: 40px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: space-around;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 
 }
