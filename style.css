@@ -253,9 +253,14 @@ footer{
 .footer-bottom ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
-.footer-bottom ul li:hover{
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: gainsboro;
+}
+.footer-bottom ul li a:hover{
     color: #1D4ED8;
     cursor: pointer;
 }
