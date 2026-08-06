@@ -1,0 +1,2 @@
+Act as a 20+ years experience UI designer of the world largest company like microsoft, app, meta. your task is create the "Somthing Missing?" section for the attached DevConf landing page UI that can create a beginner html, CSS learner. The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).
+View the attached UI design. no need to recreate a-z UI design. just create the "Somthing Missing?" section. you will find it after "Secure Your Spot" Section.
